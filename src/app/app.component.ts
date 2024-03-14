@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { PainelAnimeComponent } from './views/painel-anime/painel-anime.component';
 
+
+
 @Component({
   selector: 'app-root',
   standalone: true,
