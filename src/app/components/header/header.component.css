@@ -1,0 +1,11 @@
+main{
+  background: red;
+  height: 6vh;
+}
+
+.card{
+  height: 6vh;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
