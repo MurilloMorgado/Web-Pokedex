@@ -18,7 +18,10 @@ time, mark, audio, video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    /* Coloquei o back pra arrumar o header */
+    background: none;
 }
+
 
 /* Correções específicas para alguns elementos */
 article, aside, details, figcaption, figure,

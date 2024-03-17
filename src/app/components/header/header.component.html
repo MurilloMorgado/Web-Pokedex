@@ -1,12 +1,12 @@
 <main>
 
   <div class="card">
-    <p-menubar [model]="items" styleClass="custom-menubar" [autoDisplay]="false" >
+    <p-menubar class="header-menu" [model]="items"  [autoDisplay]="false">
       <ng-template pTemplate="start">
-        <img src="assets/logo_sete-bg.png" height="50" class="mr-2" />
+        <img src="assets/logo_sete-bg.png" height="40" class="mr-2" />
       </ng-template>
       <ng-template pTemplate="end">
-        <button pButton pRipple label="Login" class="p-button-success" class="botao-login"></button>
+        <button pButton pRipple label="Login" class="botao-login"></button>
       </ng-template>
     </p-menubar>
   </div>

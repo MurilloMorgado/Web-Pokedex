@@ -21,68 +21,17 @@ export class HeaderComponent implements OnInit{
       {
           label: 'Anime',
           icon: 'pi pi-fw pi-file',
-          items: [
-            {
-                label: 'Left',
-                icon: 'pi pi-fw pi-align-left'
-            },
-            {
-                label: 'Right',
-                icon: 'pi pi-fw pi-align-right'
-            },
-            {
-                label: 'Center',
-                icon: 'pi pi-fw pi-align-center'
-            },
-            {
-                label: 'Justify',
-                icon: 'pi pi-fw pi-align-justify'
-            }
-        ]
+
       },
       {
           label: 'Game',
           icon: 'pi pi-fw pi-file',
-          items: [
-            {
-                label: 'Left',
-                icon: 'pi pi-fw pi-align-left'
-            },
-            {
-                label: 'Right',
-                icon: 'pi pi-fw pi-align-right'
-            },
-            {
-                label: 'Center',
-                icon: 'pi pi-fw pi-align-center'
-            },
-            {
-                label: 'Justify',
-                icon: 'pi pi-fw pi-align-justify'
-            }
-        ]
+
       },
       {
           label: 'Pokedex',
           icon: 'pi pi-fw pi-pencil',
-          items: [
-              {
-                  label: 'Left',
-                  icon: 'pi pi-fw pi-align-left'
-              },
-              {
-                  label: 'Right',
-                  icon: 'pi pi-fw pi-align-right'
-              },
-              {
-                  label: 'Center',
-                  icon: 'pi pi-fw pi-align-center'
-              },
-              {
-                  label: 'Justify',
-                  icon: 'pi pi-fw pi-align-justify'
-              }
-          ]
+
       },
       {
           label: 'About',
