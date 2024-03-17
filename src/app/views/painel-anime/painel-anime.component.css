@@ -2,3 +2,13 @@ main{
   background: rgb(243, 243, 148);
   height: 77vh;
 }
+.imagem-principal {
+  height: 700px; 
+  background-image: url(/assets/ash-caminhando.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position: center bottom; */
+  background-position: center top -360px;
+}
+
+
