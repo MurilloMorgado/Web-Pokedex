@@ -1,6 +1,5 @@
 main{
   background: rgb(243, 243, 148);
-  height: 77vh;
 }
 .imagem-principal {
   height: 700px; 
@@ -8,6 +7,11 @@ main{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top -360px;
+}
+
+aside{
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.95));
+  color: white;
 }
 
 

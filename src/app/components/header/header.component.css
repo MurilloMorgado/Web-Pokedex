@@ -5,19 +5,17 @@ main {
   width: 100%;
 }
 
-.mr-2{
-  margin-top: 3px;
-}
 .card {
   width: 90%;
   margin: auto;
 }
 
-::ng-deep.p-menubar .p-menubar-end {
-  margin-left: auto;
+/* Imagem */
+.mr-2{
+  margin-top: 3px;
 }
 
-
+/* NavBar */
 ::ng-deep.p-menubar {
   border-radius: 0;
   background: none;
@@ -37,6 +35,10 @@ main {
   border-radius: 5px;
 }
 
+/* Login */
+::ng-deep.p-menubar .p-menubar-end {
+  margin-left: auto;
+}
 
 .p-menubarsub.ul.li{
   font-size: 16px;
