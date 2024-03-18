@@ -11,7 +11,7 @@ import { PainelAnimeComponent } from './views/painel-anime/painel-anime.componen
   imports: [CommonModule, RouterOutlet, PainelAnimeComponent],
   template: `
   <router-outlet></router-outlet>
-  <app-painel-anime/>
+  <!-- <app-painel-anime/> -->
   
   `,
   

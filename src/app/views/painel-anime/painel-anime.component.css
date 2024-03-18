@@ -14,14 +14,9 @@ aside{
   background-image: url(/assets/aside-1920.png);
   background-size: cover;
   background-repeat: no-repeat;
-  
 
   color: white;
-  /* border-top: 1px solid yellow; */
-  /* border-bottom: 1px solid yellow; */
-  
 }
-
 
 aside h2{
   margin: 5px 0;

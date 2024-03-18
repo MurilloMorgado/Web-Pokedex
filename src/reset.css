@@ -20,6 +20,8 @@ time, mark, audio, video {
     vertical-align: baseline;
     /* Coloquei o back pra arrumar o header */
     background: none;
+    text-decoration: none;
+    color: #F5F5F5;
 }
 
 
