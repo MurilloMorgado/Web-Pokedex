@@ -1,5 +1,5 @@
 main{
-  background: rgb(243, 243, 148);
+  /* background: rgb(243, 243, 148); */
 }
 .imagem-principal {
   height: 700px; 
@@ -10,8 +10,26 @@ main{
 }
 
 aside{
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.95));
+  height: 200px;
+  background-image: url(/assets/aside-1920.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+
   color: white;
+  /* border-top: 1px solid yellow; */
+  /* border-bottom: 1px solid yellow; */
+  
 }
 
+
+aside h2{
+  margin: 5px 0;
+}
+
+.cards-monster{
+  height: 500px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.90));
+  
+}
 
