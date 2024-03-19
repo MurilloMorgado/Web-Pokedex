@@ -3,6 +3,6 @@ import { PainelAnimeComponent } from './views/painel-anime/painel-anime.componen
 import { LoginComponent } from './views/login/login.component';
 
 export const routes: Routes = [
-  { path: '', component: PainelAnimeComponent },
+  { path: 'anime', component: PainelAnimeComponent },
   { path: 'login', component: LoginComponent },
 ];

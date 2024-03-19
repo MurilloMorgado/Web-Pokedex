@@ -1,30 +1,52 @@
-main{
+main {
   /* background: rgb(243, 243, 148); */
 }
+
 .imagem-principal {
-  height: 700px; 
+  height: 700px;
   background-image: url(/assets/ash-caminhando.png);
-  background-size: cover;
-  background-repeat: no-repeat;
   background-position: center top -360px;
 }
 
-aside{
+aside {
   height: 200px;
   background-image: url(/assets/aside-1920.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-position: center;
 
   color: white;
 }
 
-aside h2{
+aside h2 {
   margin: 5px 0;
 }
 
-.cards-monster{
-  height: 500px;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.90));
-  
+
+/* Conteudo */
+.sessoes {
+  height: 80vh;
+  background: #101010;
+
 }
 
+.sessao-texto {
+  width: 50%;
+  padding: 100px;
+}
+
+.sessao-texto h3 {
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 22px;
+}
+.sessao-texto p {
+  text-align: justify;
+}
+
+.sessao-imagem {
+  width: 50%;
+}
+
+.sessao-imagem img {
+  width: 700px;
+  height: 500px;
+}
