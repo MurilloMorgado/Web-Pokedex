@@ -2,3 +2,27 @@ main{
   background: rgb(0, 0, 0);
   height: 17vh;
 }
+
+footer {
+  height: 200px;
+  background-image: url(/assets/footer-background-1920.png);
+}
+
+
+
+.sessao-footer{
+  height: 100%;
+  padding: 20px;
+}
+
+.sessao-footer h3{
+  margin-top: 22px;
+}
+.sessao-footer p{
+  margin-top: 16px;
+}
+
+.divisoes-footer{
+  height: 100%;
+}
+

@@ -15,7 +15,8 @@
 .st-font-22{
   font-size: 16px;
 }
-.st-font-18{
+.st-font-18-weight{
+  font-size: 18px;
   font-weight: 700;
 }
 
@@ -28,5 +29,10 @@
 .st-flex-spaceAround-center{
   display: flex;
   justify-content: space-around;
+  align-items: center;
+}
+.st-flex-spaceEvenly-center{
+  display: flex;
+  justify-content: space-evenly;
   align-items: center;
 }
