@@ -49,4 +49,7 @@ aside h2 {
 .sessao-imagem img {
   width: 800px;
   height: 460px;
+  border-radius: 10px;
+
+  box-shadow: 1px 1px 10px 1px rgba(255, 255, 255, 0.589);
 }
