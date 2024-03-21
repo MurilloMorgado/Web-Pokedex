@@ -8,8 +8,6 @@ footer {
   background-image: url(/assets/footer-background-1920.png);
 }
 
-
-
 .sessao-footer{
   height: 100%;
   padding: 20px;
@@ -26,3 +24,28 @@ footer {
   height: 100%;
 }
 
+
+/* Estilos para celulares pequenos (portrait) */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  /* Estilos específicos para celulares pequenos */
+}
+
+/* Estilos para celulares pequenos (landscape) */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  /* Estilos específicos para celulares pequenos na orientação landscape */
+}
+
+/* Estilos para tablets */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Estilos específicos para tablets */
+}
+
+/* Estilos para desktops pequenos */
+@media only screen and (min-width: 1025px) and (max-width: 1199px) {
+  /* Estilos específicos para desktops pequenos */
+}
+
+/* Estilos para desktops grandes */
+@media only screen and (min-width: 1200px) {
+  /* Estilos específicos para desktops grandes */
+}
