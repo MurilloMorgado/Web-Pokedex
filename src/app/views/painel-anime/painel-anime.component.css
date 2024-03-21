@@ -9,15 +9,34 @@ main {
 }
 
 aside {
-  height: 200px;
-  background-image: url(/assets/aside-1920.png);
-  background-position: center;
-
+  background: #161616;
   color: white;
 }
 
+.container-aside{
+  height: 140px;
+}
+
+.aside-top{
+  height: 32px;
+  background-image: url(/assets/aside-top-1920.png);
+  background-position: center;
+}
+.aside-bottom{
+  height: 30px;
+  background-image: url(/assets/aside-bottom-1920.png);
+  background-position: center;
+}
+
 aside h2 {
-  margin: 5px 0;
+  margin-bottom: 5px;
+}
+aside p {
+  margin-bottom: 5px;
+}
+
+.divisoes-aside {
+  width: 20%;
 }
 
 
@@ -38,6 +57,7 @@ aside h2 {
   font-weight: 700;
   font-size: 22px;
 }
+
 .sessao-texto p {
   text-align: justify;
 }
@@ -52,4 +72,68 @@ aside h2 {
   border-radius: 10px;
 
   box-shadow: 1px 1px 10px 1px rgba(255, 255, 255, 0.589);
+}
+
+/* Estilos para celulares pequenos (portrait) */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .sessao-imagem img {
+    width: 320px;
+    height: 230px;
+  }
+
+  .container-aside {
+    height: 100%;
+    flex-direction: column;
+  }
+
+  .divisoes-aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 24px 10px;
+    width: 80%;
+  }
+
+  /* Sessões */
+
+  .sessoes{
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  .reverse-column{
+    flex-direction: column-reverse;
+  }
+
+  .sessao-imagem{
+    width: 90%;
+    justify-content: center;
+  }
+
+  .sessao-texto{
+    width: 90%;
+    padding: 5px;
+  }
+
+
+}
+
+/* Estilos para celulares pequenos (landscape) */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  /* Estilos específicos para celulares pequenos na orientação landscape */
+}
+
+/* Estilos para tablets */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Estilos específicos para tablets */
+}
+
+/* Estilos para desktops pequenos */
+@media only screen and (min-width: 1025px) and (max-width: 1199px) {
+  /* Estilos específicos para desktops pequenos */
+}
+
+/* Estilos para desktops grandes */
+@media only screen and (min-width: 1200px) {
+  /* Estilos específicos para desktops grandes */
 }
