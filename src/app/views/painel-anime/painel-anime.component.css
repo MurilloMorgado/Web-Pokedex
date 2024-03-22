@@ -95,7 +95,6 @@ aside p {
   }
 
   /* Sessões */
-
   .sessoes{
     flex-direction: column;
     justify-content: space-evenly;
@@ -115,6 +114,7 @@ aside p {
     padding: 5px;
   }
 
+  /* Footer */
 
 }
 

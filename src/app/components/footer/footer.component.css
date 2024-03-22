@@ -1,10 +1,10 @@
 main{
-  background: rgb(0, 0, 0);
-  height: 17vh;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.95) 0%, #181818 37.5%);
+  /* height: 17vh; */
 }
 
-footer {
-  height: 200px;
+.footer-background {
+  height: 31px;
   background-image: url(/assets/footer-background-1920.png);
 }
 
@@ -27,7 +27,9 @@ footer {
 
 /* Estilos para celulares pequenos (portrait) */
 @media only screen and (min-width: 320px) and (max-width: 480px) {
-  /* Estilos específicos para celulares pequenos */
+  .sessao-footer{
+    flex-direction: column;
+  } 
 }
 
 /* Estilos para celulares pequenos (landscape) */
