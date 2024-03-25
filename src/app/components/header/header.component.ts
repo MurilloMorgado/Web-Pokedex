@@ -20,22 +20,22 @@ export class HeaderComponent implements OnInit{
     this.items = [
       {
           label: 'Anime',
-          icon: 'pi pi-fw pi-file',
+          // icon: 'pi pi-fw pi-file',
 
       },
       {
           label: 'Game',
-          icon: 'pi pi-fw pi-file',
+          // icon: 'pi pi-fw pi-file',
 
       },
       {
           label: 'Pokedex',
-          icon: 'pi pi-fw pi-pencil',
+          // icon: 'pi pi-fw pi-pencil',
 
       },
       {
           label: 'About',
-          icon: 'pi pi-fw pi-user',
+          // icon: 'pi pi-fw pi-user',
          
       }
   ];
