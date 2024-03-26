@@ -4,7 +4,7 @@ main {
 
 .imagem-principal {
   height: 700px;
-  background-image: url(../../../assets/ash-caminhando.png);
+  background-image: url(/assets/ash-caminhando.png);
   background-position: center top -360px;
 }
 
@@ -19,12 +19,12 @@ aside {
 
 .aside-top{
   height: 32px;
-  background-image: url(../../../assets/aside-top-1920.png);
+  background-image: url(/assets/aside-top-1920.png);
   background-position: center;
 }
 .aside-bottom{
   height: 30px;
-  background-image: url(../../../assets/aside-bottom-1920.png);
+  background-image: url(/assets/aside-bottom-1920.png);
   background-position: center;
 }
 
