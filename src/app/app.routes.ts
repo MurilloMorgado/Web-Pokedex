@@ -3,9 +3,9 @@ import { PainelAnimeComponent } from './views/painel-anime/painel-anime.componen
 import { LoginComponent } from './views/login/login.component';
 
 export const routes: Routes = [
-  { path: '', redirectTo: '/anime', pathMatch: 'full' },
-  { path: 'anime', component: PainelAnimeComponent },
-  { path: 'login', component: LoginComponent },
+  { path: '', redirectTo: 'Web-Pokedex/anime', pathMatch: 'full' },
+  { path: 'Web-Pokedex/anime', component: PainelAnimeComponent },
+  { path: 'Web-Pokedex/login', component: LoginComponent },
 ];
 
 // a
