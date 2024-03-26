@@ -7,3 +7,5 @@ export const routes: Routes = [
   { path: 'anime', component: PainelAnimeComponent },
   { path: 'login', component: LoginComponent },
 ];
+
+// a
