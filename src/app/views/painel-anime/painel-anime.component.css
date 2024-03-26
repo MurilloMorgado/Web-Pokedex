@@ -19,12 +19,12 @@ aside {
 
 .aside-top{
   height: 32px;
-  background-image: url(../assets/aside-top-1920.png);
+  background-image: url(/assets/aside-top-1920.png);
   background-position: center;
 }
 .aside-bottom{
   height: 30px;
-  background-image: url(../assets/aside-bottom-1920.png);
+  background-image: url(/assets/aside-bottom-1920.png);
   background-position: center;
 }
 
