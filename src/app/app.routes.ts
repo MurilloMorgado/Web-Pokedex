@@ -5,7 +5,7 @@ import { LoginComponent } from './views/login/login.component';
 export const routes: Routes = [
   { path: '', redirectTo: 'Web-Pokedex/anime', pathMatch: 'full' },
   { path: 'Web-Pokedex/anime', component: PainelAnimeComponent },
-  { path: 'Web-Pokedex/login', component: LoginComponent },
+  { path: 'Web-Pokedex', component: LoginComponent },
 ];
 
 // a
