@@ -5,7 +5,7 @@ main{
 
 .footer-background {
   height: 31px;
-  background-image: url(/assets/footer-background-1920.png);
+  background-image: url(../../../assets/footer-background-1920.png);
 }
 
 .sessao-footer{

@@ -1,6 +1,6 @@
 .login{
   height: 100Vh;
-  background-image: url(/assets/login-fundo.png);
+  background-image: url(../../../assets/login-fundo.png);
   background-size: cover;
   background-position: center;
   color: white;
