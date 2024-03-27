@@ -1,6 +1,7 @@
 main {
   /* background: rgb(243, 243, 148); */
 }
+
 .imagem-principal {
   height: 700px;
 
@@ -14,21 +15,26 @@ main {
 
 
 aside {
-  background: #161616;
+  background: linear-gradient(180deg, #000619 0%, #181818 100%);
   color: white;
-}
-
-.container-aside{
-  height: 140px;
   border-bottom: 2px solid #FFC92B;
+
+  h2 {
+    margin-bottom: 5px;
+  }
+
+  p {
+    margin-bottom: 5px;
+  }
+
+  .container-aside {
+    height: 140px;
+  }
 }
 
-aside h2 {
-  margin-bottom: 5px;
-}
-aside p {
-  margin-bottom: 5px;
-}
+
+
+
 
 .divisoes-aside {
   width: 20%;
@@ -91,21 +97,22 @@ aside p {
   }
 
   /* Sessões */
-  .sessoes{
+  .sessoes {
     flex-direction: column;
     justify-content: space-evenly;
   }
-  
-  .reverse-column{
+
+  .reverse-column {
     flex-direction: column-reverse;
   }
 
-  .sessao-imagem{
+  .sessao-imagem {
     width: 90%;
     justify-content: center;
+    padding: 20px 0 0;
   }
 
-  .sessao-texto{
+  .sessao-texto {
     width: 90%;
     padding: 5px;
   }
