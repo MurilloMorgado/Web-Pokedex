@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './painel-about.component.html',
-  styleUrl: './painel-about.component.css'
+  styleUrl: './painel-about.component.scss'
 })
 export class PainelAboutComponent {
 

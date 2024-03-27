@@ -1,12 +1,17 @@
 main {
   /* background: rgb(243, 243, 148); */
 }
-
 .imagem-principal {
   height: 700px;
-  background-image: url(/assets/ash-caminhando.png);
-  background-position: center top -360px;
+
+  img {
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center bottom;
+  }
 }
+
 
 aside {
   background: #161616;
@@ -15,17 +20,7 @@ aside {
 
 .container-aside{
   height: 140px;
-}
-
-.aside-top{
-  height: 32px;
-  background-image: url(/assets/aside-top-1920.png);
-  background-position: center;
-}
-.aside-bottom{
-  height: 30px;
-  background-image: url(/assets/aside-bottom-1920.png);
-  background-position: center;
+  border-bottom: 2px solid #FFC92B;
 }
 
 aside h2 {

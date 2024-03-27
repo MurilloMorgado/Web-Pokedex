@@ -7,7 +7,7 @@ import { FooterComponent } from '../../components/footer/footer.component';
   standalone: true,
   imports: [HeaderComponent, FooterComponent],
   templateUrl: './painel-anime.component.html',
-  styleUrl: './painel-anime.component.css'
+  styleUrl: './painel-anime.component.scss'
 })
 export class PainelAnimeComponent {
 

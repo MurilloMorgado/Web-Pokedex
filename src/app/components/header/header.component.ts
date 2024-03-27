@@ -10,7 +10,7 @@ import { ButtonModule } from 'primeng/button';
   standalone: true,
   imports: [MenubarModule, InputTextModule, ButtonModule ],
   templateUrl: './header.component.html',
-  styleUrl: './header.component.css'
+  styleUrl: './header.component.scss'
 })
 export class HeaderComponent implements OnInit{
 

@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './painel-pokedex.component.html',
-  styleUrl: './painel-pokedex.component.css'
+  styleUrl: './painel-pokedex.component.scss'
 })
 export class PainelPokedexComponent {
 
