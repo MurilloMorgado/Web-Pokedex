@@ -1,5 +1,30 @@
 <main>
   <section class="login">
     <img src="assets/login-fundo.png" alt="">
+
+    <div class="container-login">
+      <h1 class="st-flex-center-center">Faça login</h1>
+
+      <label for="password">Username</label>
+      <div class="card flex justify-content-center inputs">
+        <input type="text" pInputText [(ngModel)]="value" />
+      </div>
+
+      <label for="password">Password</label>
+      <div class="card flex justify-content-center inputs">
+        <input type="password" pInputText [(ngModel)]="password" />
+      </div>
+      
+      <div class="st-flex-spaceAround-center botoes">
+        <div class="st-flex-spaceAround-center">
+          <input type="checkbox" pInputText [(ngModel)]="checked" />
+          <p>Lembrar senha</p>
+        </div>
+        <p>Esqueceu senha?</p>
+      </div>
+
+      <a href="https://angular.dev/" target="_blank" rel="noopener noreferrer" class="p-button font-bold">Entrar</a>
+    </div>
   </section>
+
 </main>
