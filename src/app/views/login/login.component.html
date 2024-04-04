@@ -2,29 +2,35 @@
   <section class="login">
     <img src="assets/login-fundo.png" alt="">
 
-    <div class="container-login">
-      <h1 class="st-flex-center-center">Faça login</h1>
+    <div class="container">
+      <div class="container-login">
 
-      <label for="password">Username</label>
-      <div class="card flex justify-content-center inputs">
-        <input type="text" pInputText [(ngModel)]="value" />
-      </div>
+        <h1 class="st-flex-center-center">Faça login</h1>
 
-      <label for="password">Password</label>
-      <div class="card flex justify-content-center inputs">
-        <input type="password" pInputText [(ngModel)]="password" />
-      </div>
-      
-      <div class="st-flex-spaceAround-center botoes">
-        <div class="st-flex-spaceAround-center">
-          <input type="checkbox" pInputText [(ngModel)]="checked" />
-          <p>Lembrar senha</p>
+        <label for="password">Username</label>
+        <div class="card flex justify-content-center inputs">
+          <input type="text" pInputText [(ngModel)]="value" />
         </div>
-        <p>Esqueceu senha?</p>
-      </div>
 
-      <a href="https://angular.dev/" target="_blank" rel="noopener noreferrer" class="p-button font-bold">Entrar</a>
+        <label for="password">Password</label>
+        <div class="card flex justify-content-center inputs">
+          <input type="password" pInputText [(ngModel)]="password" />
+        </div>
+
+        <div class="st-flex-spaceAround-center botoes">
+          <div class="st-flex-spaceAround-center">
+            <input type="checkbox" pInputText [(ngModel)]="checked" />
+            <p>Lembrar senha</p>
+          </div>
+          <p>Esqueceu senha?</p>
+        </div>
+
+        <div class="st-flex-spaceAround-center entrar">
+          <a href="https://angular.dev/" target="_blank" rel="noopener noreferrer" class="p-button font-bold">Entrar</a>
+        </div>
+      </div>
     </div>
+
   </section>
 
 </main>
